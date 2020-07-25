@@ -8,16 +8,20 @@ import {
 	NavRightHeader,
 } from './styles';
 
+import Logo from '../../assets/logo.svg';
+
 const Header = () => {
 	return (
 		<Nav>
 			<NavHeader>
 				<NavLefHeader>
-					<h1>Logo</h1>
+					<img src={Logo} alt="logo" />
 				</NavLefHeader>
 				<NavCenterHeader>Options</NavCenterHeader>
 				<NavRightHeader>
-					<h1>Something</h1>
+					<div>
+						<span>Quero criar minha loja !</span>
+					</div>
 				</NavRightHeader>
 			</NavHeader>
 		</Nav>

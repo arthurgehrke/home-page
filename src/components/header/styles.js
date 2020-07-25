@@ -10,15 +10,15 @@ const NavHeader = styled.div`
 	align-items: center;
 	justify-content: space-between;
 
-	margin: 0 auto;
-	padding: 26px 20px;
+	margin: auto;
+	padding: 14px 20px;
 `;
 
-const NavRightHeader = styled.div`
+const NavLefHeader = styled.div`
 	width: 1/3;
 	text-align: right;
 
-	h1 {
+	svg {
 		margin-right: 10px;
 	}
 `;
@@ -26,14 +26,30 @@ const NavRightHeader = styled.div`
 const NavCenterHeader = styled.div`
 	width: 1/3;
 	text-align: center;
+
+	font-size: 16px;
+	text-decoration-color: black;
+
+	transition: opacity 0.2s;
+
+	&:hover {
+		opacity: 0.7;
+	}
 `;
 
-const NavLefHeader = styled.div`
+const NavRightHeader = styled.div`
 	width: 1/3;
 	text-align: left;
 
-	h {
+	div {
+		background: #b0c4de;
+		padding: 20px;
 		margin-left: 10px;
+
+		span {
+			font-size: 16px;
+			text-decoration-color: #808080;
+		}
 	}
 `;
 
