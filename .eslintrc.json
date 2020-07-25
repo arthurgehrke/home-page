@@ -11,10 +11,11 @@
 		"ecmaVersion": 11,
 		"sourceType": "module"
 	},
-	"plugins": ["react"],
+	"plugins": ["react", "prettier", "react-hooks"],
 	"rules": {
 		"react/jsx-filename-extension": "off",
 		"react/jsx-indent": "off",
-		"no-unused-vars": "warn"
+		"no-unused-vars": "warn",
+		"no-unused-expressions": "off"
 	}
 }
